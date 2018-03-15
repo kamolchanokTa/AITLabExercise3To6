@@ -1,0 +1,16 @@
+<web-app>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list> 
+    <servlet>
+        <servlet-name>Exercise4</servlet-name>
+        <servlet-class>Exercise4</servlet-class>
+    </servlet>
+
+  <!-- Define the Manager Servlet Mapping -->
+  <servlet-mapping>
+        <servlet-name>Exercise4</servlet-name>
+        <url-pattern>/ait/Exercise4</url-pattern>
+    </servlet-mapping>
+</web-app> 
